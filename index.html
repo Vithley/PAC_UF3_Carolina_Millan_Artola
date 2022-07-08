@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquina Tragaperras</title>
+
+    
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+    <div id="contenido">
+        <header>
+            <h1>Máquina Tragaperras</h1>
+            
+        </header>
+
+        <div id="intromonedas">
+            <h3>Introduce monedas:</h3>
+            <label><input  type="number" class="contadores1" name="monedas" value="0"  id="monedas" /></label>
+            <input type="button" class="boton" id="introducir" value="Introducir"  /><br><br>
+            <h4>Número total de monedas </h4>
+            <input class="contadores" type="submit" name="insertarMonedas"  value="0"  id="insertarMonedas"/>
+            </div>
+            <div>
+            <p><input type="button" class="boton" id="salir" value="Salir"/></p>
+        </div>
+
+        <div id="tirada">
+            <div class= "pantalla">
+                <div class="cajas" id="1">
+                    <img id="imagen1" src="img/pingu.png" alt="PREMIO" />
+                </div>
+
+                <div class="cajas" id="2">
+                    <img id="imagen2" src="img/pingu.png" alt="PREMIO" />
+                </div>
+
+                <div class="cajas" id="3">
+                    <img id="imagen3" src="img/pingu.png" alt="PREMIO" />
+                </div> 
+
+                <div class="palanca">
+                <input alt="submit" type="image" src="img/palancaUP.png" id="tirar"/>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="" id="historial">
+            <h3> Historial de tiradas</h3>
+            <ul id="historialTiradas">
+            </ul>
+        </div>
+
+
+    </div>
+
+    <script src="./index.js"></script>
+    
+</body>
+
+</html>
